@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Project-useeffect-hook-fetch/static/css/main.fb665e37.css",
+    "main.js": "/React-Project-useeffect-hook-fetch/static/js/main.e1a25d2e.js",
+    "index.html": "/React-Project-useeffect-hook-fetch/index.html",
+    "main.fb665e37.css.map": "/React-Project-useeffect-hook-fetch/static/css/main.fb665e37.css.map",
+    "main.e1a25d2e.js.map": "/React-Project-useeffect-hook-fetch/static/js/main.e1a25d2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb665e37.css",
+    "static/js/main.e1a25d2e.js"
+  ]
+}

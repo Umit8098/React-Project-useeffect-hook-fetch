@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://umit8098.github.io/React-Project-Task-Tracker-Single-Page/">
+    <a href="https://umit8098.github.io/React-Project-useeffect-hook-fetch/">
       🖥️ Demo
     </a>
      | 
@@ -30,13 +30,13 @@
 
 ## ✨ Overview
 
-A simple Task Tracker App built with React.
-Users can add, delete, and mark tasks as done. All data is persisted in localStorage, so tasks remain after page reloads.
+A simple React app that fetches and displays a list of users using the `useEffect` hook.  
+Data is fetched from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) API and displayed with avatars.
 
-A simple Task Tracker App built with React.
-Users can add, delete, and toggle tasks. Tasks are saved to localStorage so they remain after refresh.
+<div align="center"> 
+  <img src="./user-list.png" alt="user list demo" width="700"/> 
+</div>
 
-<div align="center"> <img src="./task-tracker.gif" alt="task tracker demo" width="700"/> </div>
 
 ---
 
@@ -45,24 +45,18 @@ Users can add, delete, and toggle tasks. Tasks are saved to localStorage so they
 This project demonstrates:
 
 * ⚛️ Using React functional components and hooks (`useState`, `useEffect`)
-
-* 💾 LocalStorage persistence for tasks
-
-* 🎨 Dynamic styling & conditional rendering
-
-* ➕ Adding, ❌ deleting, ✅ marking tasks as done
+* 🌐 Fetching data from an external API (`fetch`)
+* 🎨 Displaying dynamic data with mapping
+* 🖼️ Using placeholder avatars with [Pravatar](https://i.pravatar.cc/)
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add a new task with date & time
-- ❌ Delete a task
-- ✅ Double-click to toggle “done” state
-- 💾 LocalStorage persistence (tasks remain after refresh)
-- 🎨 Button dynamically changes color & text when toggling Add Task form
-
-<div align="center"> <img src="./screenshots/add-task.png" alt="add task" width="500"/> <img src="./screenshots/task-list.png" alt="task list" width="500"/> </div>
+- 🔄 Fetch users from API when component mounts
+- 👤 Display each user’s name and avatar
+- 🗂️ Responsive grid layout with Bootstrap classes
+- ⚡ Error handling for failed fetch requests
 
 ---
 
@@ -93,10 +87,10 @@ React UseEffect Hook
 ## 🛠️ Built With
 
 * [React](https://react.dev/)
-* [React Icons](https://react-icons.github.io/react-icons/)
-* [LocalStorage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+* [Bootstrap](https://getbootstrap.com/) (grid layout & styling)
+* [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
+* [Pravatar](https://i.pravatar.cc/)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
 
 ---
 
@@ -124,15 +118,17 @@ $ npm start
 
 ## 📌 About This Project
 
-- Built for educational purposes.
-- Demonstrates state management and local persistence in React.
-- Showcases conditional rendering and form handling.
+* Built for educational purposes.
+* Demonstrates how to fetch data from an API in React using useEffect.
+* Showcases mapping over data and rendering UI dynamically.
 
 ---
 
 ## 🙏 Acknowledgements
+
 - [Clarusway](https://clarusway.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+- [Pravatar](https://i.pravatar.cc/)
 
 ---
 

@@ -1,5 +1,5 @@
 
-<h1 align="center">📌 Task Tracker</h1>
+<h1 align="center">📌 UseEffect Hook Fetch </h1>
 
 <div align="center">
   <h3>
@@ -7,7 +7,7 @@
       🖥️ Demo
     </a>
      | 
-    <a href="https://github.com/Umit8098/React-Project-Task-Tracker-Single-Page.git">
+    <a href="https://github.com/Umit8098/React-Project-useeffect-hook-fetch.git">
       📂 Project
     </a>
   </h3>
@@ -106,10 +106,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com/), [Nod
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/React-Project-Task-Tracker-Single-Page.git
+$ git clone https://github.com/Umit8098/React-Project-useeffect-hook-fetch.git
 
 # Navigate into the project folder
-$ cd React-Project-Task-Tracker-Single-Page
+$ cd React-Project-useeffect-hook-fetch
 
 # Install dependencies
 $ yarn  
